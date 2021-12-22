@@ -1,7 +1,7 @@
-package com.example.hw18.service;
+package com.example.hw18.q4.service;
 
-import com.example.hw18.entity.Book;
-import com.example.hw18.manager.BookManager;
+import com.example.hw18.q4.entity.Book;
+import com.example.hw18.q4.manager.BookManager;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

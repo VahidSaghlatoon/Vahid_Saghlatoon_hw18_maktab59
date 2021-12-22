@@ -1,5 +1,5 @@
-<%@ page import="com.example.hw18.manager.BookManager" %>
-<%@ page import="com.example.hw18.entity.Book" %>
+<%@ page import="com.example.hw18.q4.manager.BookManager" %>
+<%@ page import="com.example.hw18.q4.entity.Book" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 

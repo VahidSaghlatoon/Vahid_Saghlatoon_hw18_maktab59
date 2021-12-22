@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Document</title>
+    <style>
+    
+
+        .d-flex > *:nth-child(1) {
+        color: white;
+        background-color: rgb(60, 138, 228);
+        flex-basis: 100%;
+      }
+      .d-flex > *:nth-child(2) {
+        background-color: gainsboro;
+        flex-basis: 20%;
+      }
+      .d-flex > *:nth-child(3) {
+        background-color: gainsboro;
+        flex-basis: 20%;
+      }
+      .d-flex > *:nth-child(4) {
+        background-color: gainsboro;
+        flex-basis: 20%;
+      }
+      .d-flex > *:nth-child(5) {
+        background-color: rgb(60, 138, 228);
+        flex-basis: 20%;
+      }
+      .d-flex > *:nth-child(6) {
+        background-color: rgb(231, 187, 93);
+        flex-basis: 20%;
+      }
+      .d-flex > *:nth-child(7) {
+        background-color: rgb(93, 231, 190);
+        flex-basis: 20%;
+      }
+      .d-flex > *:nth-child(8) {
+        background-color: rgb(231, 93, 127);
+        flex-basis: 100%;
+      }
+
+      .d-flex>*{
+        flex: 1 1 auto;
+        padding: 2rem;
+      }
+
+      @media screen and (max-width: 576px) {
+        .d-flex {
+          flex-direction: column;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .d-flex > *:nth-child(4) {
+          flex-basis: 100% !important;
+        }
+        .d-flex > *:nth-child(5) {
+          flex-basis: 33% !important;
+        }
+        .d-flex > *:nth-child(6) {
+          flex-basis: 33% !important;
+        }
+        .d-flex > *:nth-child(7) {
+          flex-basis: 0 !important;
+        }
+        .d-flex > *:nth-child(8) {
+          flex-basis: 0 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid text-center">
+      <div class="d-flex gap-2 flex-wrap">
+        <div><h2>Responsive Web</h2></div>
+        <div><h5>Title</h5>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
+            magnam!
+        </div>
+        <div><h5>Title</h5>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
+          magnam!
+        </div>
+        <div><h5>Title</h5>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
+          magnam!
+        </div>
+        <div><h5>Title</h5>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
+          magnam!
+        </div>
+        <div><h5>Title</h5>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
+          magnam!
+        </div>
+        <div><h5>Title</h5>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
+          magnam!
+        </div>
+        <div><h5>Title</h5>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
+          magnam!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

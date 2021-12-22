@@ -1,7 +1,7 @@
-package com.example.hw18.core;
+package com.example.hw18.q4.core;
 
 import java.util.List;
-import java.util.Set;
+
 @SuppressWarnings("unchecked")
 public  class BaseService<T extends BaseEntity<ID>, ID extends Number> {
     private BaseDao baseDao ;

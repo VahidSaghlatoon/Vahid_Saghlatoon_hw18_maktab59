@@ -1,6 +1,6 @@
-package com.example.hw18.entity;
+package com.example.hw18.q4.entity;
 
-import com.example.hw18.core.BaseEntity;
+import com.example.hw18.q4.core.BaseEntity;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;

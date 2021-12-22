@@ -1,7 +1,7 @@
-package com.example.hw18.dao;
+package com.example.hw18.q4.dao;
 
-import com.example.hw18.core.BaseDao;
-import com.example.hw18.entity.Book;
+import com.example.hw18.q4.core.BaseDao;
+import com.example.hw18.q4.entity.Book;
 
 public class BookDao extends BaseDao<Book,Integer> {
     @Override

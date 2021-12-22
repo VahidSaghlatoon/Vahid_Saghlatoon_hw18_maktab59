@@ -1,4 +1,4 @@
-package com.example.hw18.core;
+package com.example.hw18.q4.core;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
